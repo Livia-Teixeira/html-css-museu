@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container"> <!-- início do container -->
+
+        <header> <!-- início do header -->
+            <div id="logo">
+                <h1><a href="museu-nacional">Museu Nacional</a></h1>
+            </div>
+
+            <nav> <!-- início da navegação -->
+                <ul>
+                    <li><a href="home">home</a></li>
+                    <li><a href="exposicoes">exposições</a></li>
+                    <li><a href="pesquisas">pesquisas</a></li>
+                    <li><a href="acervos">acervos</a></li>
+                    <li><a href="videos">vídeos</a></li>
+                    <li><a href="contato">contato</a></li>
+                </ul>
+            </nav> <!-- fim da navegação -->
+        </header> <!-- fim do header -->
+
+        <div id="principal">
+
+            <div id="conteudo"> <!-- início do conteúdo -->
+                
+                <section id="capa">
+                    <img src="img/museu.png">
+                </section>
+
+                <section id="postagens">
+
+                    <article id="video">
+                        <h3>vídeo: conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube-nocookie.com/embed/RGUYb-hivrc?si=XpD7bF9ZA_UagbQD"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>mapa: veja a localização do museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2063118213414!2d-43.229103824899404!3d-22.905759979255784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sNational%20Museum%20of%20Brazil!5e0!3m2!1sen!2sbr!4v1765060527009!5m2!1sen!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>exposições</h3>
+                        <ul>
+                            <li><a href="https://www.google.com/search?q=Artefatos+Ind%C3%ADgenas+Museu+Nacional" target="_blank">Artefatos Indígenas</a></li>
+                            <li><a href="https://www.google.com/search?q=Arqueologia+Brasileira+Museu+Nacional" target="_blank">Arqueologia Brasileira</a></li>
+                            <li><a href="https://www.google.com/search?q=Egito+Antigo+Museu+Nacional" target="_blank">Egito Antigo</a></li>
+                            <li><a href="https://www.google.com/search?q=Paleontologia+Museu+Nacional" target="_blank">Paleontologia</a></li>
+                            <li><a href="https://www.google.com/search?q=Meteoritos+Museu+Nacional" target="_blank">Meteoritos</a></li>
+                            <li><a href="https://www.google.com/search?q=Borbolet%C3%A1rio+Museu+Nacional" target="_blank">Borboletário</a></li>
+                            <li><a href="https://www.google.com/search?q=Zoologia+Museu+Nacional" target="_blank">Zoologia</a></li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            O Museu Nacional do Brasil, criado em 6 de junho de 1818, é a instituição científica mais antiga do país 
+                            e um dos maiores museus da América Latina. Ele fica no Parque Quinta da Boa Vista, no Rio de Janeiro, 
+                            e possui mais de 20 milhões de itens em áreas como antropologia, geologia, botânica, mineralogia e zoologia. 
+                            Desde sua criação, o museu é um lugar importante para cultura e ciência no Brasil. Em 2018, completou 200 anos de história.
+                        </p>
+                        <a href="x">leia mais</a>
+                    </article>
+
+                </section>
+
+            </div> <!-- fim do conteúdo -->
+
+            <aside> <!-- início barra lateral -->
+
+                <aside id="depoimento">
+                    <img src="img/depoimento.png">
+                </aside>
+
+                <section id="visita">
+                    <h4>faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data:</legend>
+
+                            <label for="data">data:</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa"><br>
+
+                            <label for="qtd" style="width: 30px;">quantidade de pessoas:</label>
+                            <input class="campo" type="text" id="qtd" value="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="verificar disponibilidade">
+                    </form>
+                </section>
+
+                <section id="galeria">
+                    <h4>galeria de fotos</h4>
+
+                    <a href=""><img src="img/imagem1.jpg" height="93" width="93"></a>
+                    <a href=""><img src="img/imagem2.jpg" height="93" width="93"></a>
+                    <a href=""><img src="img/imagem3.jpg" height="93" width="93"></a>
+                    <a href=""><img src="img/imagem4.jpg" height="93" width="93"></a>
+                </section>
+
+            </aside> <!-- fim barra lateral -->
+
+        </div>
+ 
+        <footer>
+            <p>
+                <a href="x">home</a>
+                <a href="x">exposições</a>
+                <a href="x">pesquisas</a>
+                <a href="x">acervos</a>
+                <a href="x">vídeos</a>
+                <a href="x">contato</a>
+            </p>
+            <p>&copy; 2025 Museu Nacional — Todos os direitos reservados.</p>
+        </footer>
+
+    </div> <!-- fim container -->
+
+</body>
+</html>
